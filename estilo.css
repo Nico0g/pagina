@@ -1,0 +1,144 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* NAVBAR */
+nav ul{
+    list-style-type: none;
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+nav li{
+    float: left;
+}
+nav li a{
+    color: white;
+    text-decoration-line: center;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+}
+nav li a:hover{
+    background-color: black;
+    color: darkgray;
+}
+/* FIN NAVBAR */
+/* HERO */
+.hero{
+    background-image: linear-gradient(rgba(198, 205, 182, 0.8), rgba(0, 0, 0, 0))
+    ,url(moto1.jpg);
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.text-hero{
+    color: white;
+    text-align: center;
+    padding: 250px;
+}
+/* FIN HERO */
+/* UTILIDADES */
+.text-large{
+    font-size: 30px;
+}
+.contenedor{
+    width: 90%;
+    margin: auto;
+    padding: 80px;
+}
+/* FIN UTILIDADES */
+/* INFORMACION */
+.info{
+    background-color: grey;
+    color: wheat;
+}
+.text-info{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+}
+/* FIN INFORMACION */
+/* Descripcion */
+.contenedor-card{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    width: 30%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    transform: scale(1);
+    transition: transform 0.6s;
+}
+.card:hover{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.87);
+    transform: scale(1.15);
+}
+.card p{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.card i{
+    color: darkgray;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.titulo{
+    margin: 30px;
+    
+}
+/* Fin Descripcion}
+/* Galeria */
+.gallery-contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.gallery-contenedor img{
+    width: 23%;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 5px;
+    border-radius: 15px;
+}
+.gallery{
+    background-color: brown;
+}
+.gallery-contenedor img:hover{
+    transform: scaleX(-1);
+    cursor: pointer;
+}
+/* Fin Galeria */
+/* Footer */
+.footer-color{
+    background-color: antiquewhite;
+}
+.footer{
+    width: 90%;
+    padding: 20px;
+    margin: auto;
+}
+.footer ul{
+    list-style-type: none;
+}
+.footer li{
+    padding: 3px;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer a:hover{
+    color: red;
+}
+/* Fin Footer */
